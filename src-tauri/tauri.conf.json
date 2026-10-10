@@ -1,0 +1,55 @@
+{
+  "$schema": "../../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "SageDict",
+  "version": "0.1.0",
+  "identifier": "com.skye.sage",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:3001",
+    "beforeDevCommand": "npm run dev:react",
+    "beforeBuildCommand": "node scripts/pack-wordnet.mjs && npm run build:react"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Dictionary",
+        "label": "main",
+        "url": "../index.html",
+        "width": 800,
+        "height": 600,
+        "minWidth": 800,
+        "minHeight": 600,
+        "resizable": true,
+        "fullscreen": false,
+        "center": true,
+        "visible": true
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "enable": true,
+        "scope": ["$RESOURCE/**", "$APPDATA/**", "$HOME/.sagedict/**"]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "android": {
+      "debugApplicationIdSuffix": ".debug"
+    },
+    "resources": {
+      "../src/assets/wordnet.7z": "assets/wordnet.7z",
+      "../src/assets/user.sqlite": "assets/user.sqlite",
+      "../src/assets/sagedict.png": "assets/sagedict.png"
+    }
+  }
+}

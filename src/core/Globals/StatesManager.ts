@@ -1,4 +1,4 @@
-import { BookmarkEntry } from "../../main/preload/preload.type";
+import { BookmarkEntry } from "../../types/global";
 
 enum ThemeType {
     dark = 'dark',

@@ -1,0 +1,10 @@
+# Ignore the database and all SQLite sidecar files
+wordnet.sqlite
+wordnet.sqlite-journal
+wordnet.sqlite-wal
+wordnet.sqlite-shm
+user.sqlite*
+
+# Also ignore any directory where your database lives
+data/
+assets/

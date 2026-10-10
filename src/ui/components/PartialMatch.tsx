@@ -194,10 +194,10 @@ export const PartialMatchCard: React.FC<MatchPhrasesProps> = ({
 }) => {
     // Guard clauses
     if (!searchPhrase?.trim() || matchPhrases.length === 0) return null;
-
+    console.log("MatchPhrase", matchPhrases)
     // Deduplicate and sort matches by relevance (exact startsWith first)
     const processedMatches = useMemo(() => {
-        const unique = [...new Set(matchPhrases.map(m => m.toLowerCase()))];
+        const unique = [...new Set(matchPhrases?.map(m => m.toLowerCase()))];
         return unique.sort((a, b) => {
             const aStarts = a.startsWith(searchPhrase.toLowerCase());
             const bStarts = b.startsWith(searchPhrase.toLowerCase());

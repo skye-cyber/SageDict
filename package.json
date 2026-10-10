@@ -1,210 +1,65 @@
 {
-  "name": "deskdict",
+  "name": "sagedict",
   "version": "1.0.0",
   "description": "A lightweight english desktop dictionary app",
-  "main": "src/main/index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"INFO: no test specified\" && exit 0",
-    "preview": "vite preview",
     "dev": "concurrently \"npm:dev:*\"",
-    "dev:react": "vite",
-    "dev:electron": "electron .",
-    "dev:types": "tsc --noEmit --watch",
+    "dev:react": "vite --host 0.0.0.0",
     "dev:styles": "tailwindcss -i ./src/ui/styles/config.css -o ./src/ui/styles/global.css --watch",
-    "dev:main": "tsc -p tsconfig.main.json --watch",
+    "dev:types": "tsc --noEmit --watch",
+    "dev:core": "tsc -p tsconfig.core.json --watch",
+    "dev:tauri": "tauri dev",
     "build": "npm run clean && npm run type-check && npm run build:all",
-    "build:all": "npm-run-all build:main build:preload build:core build:react",
-    "build:main": "tsc -p tsconfig.main.json",
+    "build:all": "npm-run-all build:core build:react build:tauri",
     "build:core": "tsc -p tsconfig.core.json",
-    "build:ui": "tsc -p tsconfig.ui.json",
     "build:react": "vite build",
-    "package": "npm run build && npm run package:electron",
-    "package:electron": "electron-builder",
-    "package:electron:win": "electron-builder --win",
-    "package:electron:mac": "electron-builder --mac",
-    "package:electron:linux": "electron-builder --linux",
+    "build:tauri": "tauri build",
+    "package": "npm run build",
     "clean": "rimraf dist",
     "type-check": "tsc --noEmit",
-    "styles": "tailwindcss -i ./src/ui/styles/config.css -o ./src/ui/styles/global.css --minify"
+    "styles": "tailwindcss -i ./src/ui/styles/config.css -o ./src/ui/styles/global.css --minify",
+    "tauri": "tauri",
+    "cert:gen": "keytool -genkey -v -keystore ~/sagedict-upload-keystore.jks -alias sagedict -keyalg RSA -keysize 2048 -validity 10000"
   },
   "keywords": [
     "dictionary",
-    "electron",
-    "desktop"
+    "desktop",
+    "tauri"
   ],
   "author": {
     "name": "Wambua Mwikya aka Skye",
     "email": "swskye17@gmail.com"
   },
-  "license": "GPL3",
+  "license": "GPL-3.0-only",
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.15",
+    "@tailwindcss/typography": "^0.5.19",
+    "@tauri-apps/cli": "^2.11.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "electron": "^35.0.0",
-    "electron-builder": "^26.0.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "esbuild": "^0.28.2",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.19"
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~6.0.3",
+    "vite": "^8.0.16"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^6.0.1",
-    "better-sqlite3": "^12.0.0",
-    "browser": "^0.2.6",
-    "browserify-fs": "^1.0.0",
-    "browserify-zlib": "^0.2.0",
-    "child-process-promise": "^2.2.1",
-    "compression-webpack-plugin": "^12.0.0",
-    "crypto-browserify": "^3.12.1",
-    "framer-motion": "^12.38.0",
-    "process": "^0.11.10",
+    "@tauri-apps/api": "^2.11.1",
+    "@tauri-apps/plugin-dialog": "^2.7.3",
+    "@tauri-apps/plugin-fs": "^2.5.2",
+    "@tauri-apps/plugin-opener": "^2.5.5",
+    "@tauri-apps/plugin-shell": "^2.3.6",
+    "@tauri-apps/plugin-store": "^2.4.5",
+    "framer-motion": "^14.0.0",
+    "lucide-react": "^0.563.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-icons": "^5.6.0",
-    "vite": "^8.0.10",
-    "vite-plugin-node-polyfills": "^0.26.0",
-    "vm-browserify": "^1.1.2",
-    "lucide-react": "^0.563.0"
-  },
-  "files": [
-    "README.md",
-    "LICENSE",
-    "package.json",
-    "build/**/*",
-    "src/core/**/*",
-    "src/ui/**/*",
-    "src/main/**/*",
-    "src/preload/**/*",
-    "public/**/*",
-    "!icons/",
-    "!dist/",
-    "!node_modules/",
-    "!true"
-  ],
-  "build": {
-    "appId": "com.deskdict.dictionary",
-    "productName": "DeskDict",
-    "directories": {
-      "output": "dist"
-    },
-    "files": [
-      "src/**/*",
-      "assets/**/*",
-      "node_modules/better-sqlite3/**/*"
-    ],
-    "extraResources": [
-      {
-        "from": "src/assets/",
-        "to": "assets/"
-      },
-      {
-        "from": "build/",
-        "to": "build/",
-        "filter": [
-          "**/*"
-        ]
-      }
-    ],
-    "mac": {
-      "icon": "src/assets/deskdict.icns",
-      "category": "public.app-category.productivity",
-      "target": [
-        {
-          "target": "dmg",
-          "arch": [
-            "x64",
-            "arm64"
-          ]
-        }
-      ],
-      "hardenedRuntime": false,
-      "gatekeeperAssess": false,
-      "identity": null
-    },
-    "dmg": {
-      "artifactName": "${productName}-${version}-${arch}.dmg"
-    },
-    "win": {
-      "icon": "src/assets/deskdict.ico",
-      "target": [
-        {
-          "target": "nsis",
-          "arch": [
-            "x64",
-            "ia32",
-            "arm64"
-          ]
-        },
-        {
-          "target": "portable",
-          "arch": [
-            "x64",
-            "arm64"
-          ]
-        },
-        {
-          "target": "msi",
-          "arch": [
-            "x64",
-            "arm64"
-          ]
-        }
-      ]
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true,
-      "allowElevation": true,
-      "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
-      "allowToChangeInstallationDirectory": true,
-      "license": "LICENSE",
-      "artifactName": "${productName}-${version}-${arch}.${ext}"
-    },
-    "portable": {
-      "artifactName": "${productName}-portable-${version}-${arch}.${ext}"
-    },
-    "linux": {
-      "target": [
-        {
-          "target": "AppImage",
-          "arch": [
-            "x64",
-            "armv7l",
-            "arm64"
-          ]
-        },
-        {
-          "target": "deb",
-          "arch": [
-            "x64",
-            "arm64"
-          ]
-        },
-        {
-          "target": "snap",
-          "arch": [
-            "x64"
-          ]
-        }
-      ],
-      "category": "Utility",
-      "icon": "src/icons",
-      "maintainer": "Skye <swskye17@gmail.com>",
-      "synopsis": "Desktop Distionary",
-      "description": "A simple english desktop dictionary application"
-    },
-    "appImage": {
-      "artifactName": "${productName}-${version}-${arch}.AppImage"
-    },
-    "deb": {
-      "priority": "optional",
-      "artifactName": "${productName}_${version}_${arch}.deb"
-    },
-    "snap": {
-      "summary": "Desktop Distionary Snap Package",
-      "grade": "stable",
-      "confinement": "classic",
-      "artifactName": "${productName}_${version}_${arch}.snap"
-    }
+    "react-icons": "^5.6.0"
   }
 }

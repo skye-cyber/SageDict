@@ -89,7 +89,7 @@ const TabButton: React.FC<{
     return (
         <motion.button
             onClick={onClick}
-            className={`relative flex items-center justify-center sd:justify-start gap-2.5 px-4 py-3 rounded-xl text-sm font-medium transition-colors duration-200 w-full
+            className={`relative flex items-center justify-center sd:justify-start gap-1 sm:gap-2.5 px-1 py-2 sm:px-4 sm:py-3 rounded-xl text-sm font-medium transition-colors duration-200 w-full
             ${isActive
                     ? 'text-white'
                     : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5'
@@ -194,7 +194,7 @@ export const SettingPanel: React.FC<PanelProps> = ({ isOpen, onSettingToggle }) 
                         initial="hidden"
                         animate="visible"
                         exit="exit"
-                        className="fixed top-12 right-4 z-50 w-[80vw] sd:w-[65vw] h-[85vh] overflow-hidden rounded-2xl shadow-2xl border border-gray-200 dark:border-white/10 bg-gradient-to-br from-[#ffffff] to-[#f8f9fa] dark:from-[#1a1a1a] dark:to-[#151515]"
+                        className="fixed top-0 sm:top-12 right-0 z-50 max-[450px]:w-[100dvw] sm:w-[80vw] h-[100dvh] sm:h-[85vh] overflow-hidden rounded-xl sm:rounded-2xl shadow-2xl border border-gray-200 dark:border-white/10 bg-gradient-to-br from-[#ffffff] to-[#f8f9fa] dark:from-[#1a1a1a] dark:to-[#151515] select-none"
                     >
                         {/* Header */}
                         <div className="flex items-center justify-between p-5 border-b border-gray-200 dark:border-white/5">
@@ -233,7 +233,7 @@ export const SettingPanel: React.FC<PanelProps> = ({ isOpen, onSettingToggle }) 
 
                         <div className="flex h-[calc(85vh-80px)]">
                             {/* Sidebar Tabs */}
-                            <div className="w-16 lg:w-52 p-3 border-r border-gray-200 dark:border-white/5 space-y-1 flex-shrink-0 overflow-y-auto">
+                            <div className="w-12 sm:w-16 lg:w-52 p-1 sm:p-3 border-r border-gray-200 dark:border-white/5 space-y-1 flex-shrink-0 overflow-y-auto">
                                 {tabs.map((tab) => (
                                     <TabButton
                                         key={tab.id}
@@ -262,7 +262,7 @@ export const SettingPanel: React.FC<PanelProps> = ({ isOpen, onSettingToggle }) 
                             </div>
 
                             {/* Content Area */}
-                            <div className="flex-1 p-5 overflow-y-auto scrollbar-custom">
+                            <div className="flex-1 p-1 sm:p-5 overflow-y-auto scrollbar-custom">
                                 <AnimatePresence mode="wait">
                                     <motion.div
                                         key={activeTab}

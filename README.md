@@ -1,6 +1,16 @@
+<!-- Project badges — Tauri 2 build -->
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Tauri](https://img.shields.io/badge/Tauri-2.x-24C8DB.svg?logo=tauri)](https://tauri.app/)
+[![Rust](https://img.shields.io/badge/Rust-1.77%2B-orange.svg?logo=rust)](https://www.rust-lang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-22%2B-green.svg?logo=node.js)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB.svg?logo=react)](https://react.dev/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/skye-cyber/desktop-dictionary/release.yml?branch=main)](https://github.com/skye-cyber/desktop-dictionary/actions)
+
+<!-- Platform targets -->
+![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android%20%7C%20iOS-informational)
 # Desktop Dictionary
 
-A modern, lightweight desktop dictionary built with Electron, TypeScript, and JSON storage.
+A modern, lightweight cross-platform dictionary application.
 
 ## Features
 

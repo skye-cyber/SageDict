@@ -7,6 +7,7 @@ import EmptyState from '../components/EmptyState';
 import { PartialMatchCard } from '../components/PartialMatch';
 import { DictionaryEntry } from '../../types/global';
 import SearchBar from '../components/SearchBar';
+import { sage } from '../../core/hooks/sage';
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -94,8 +95,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSettingToggle }) => {
 //         setSearchedPhrase(query)
         try {
             // Simulate slight delay for UX smoothness if needed
-            const searchResult = await window.dict.api.searchWord(searchQuery);
-
+            const searchResult = await sage.dict.searchWord(searchQuery);
             // Staggered reveal animation
             await controls.start('hidden');
             if (searchResult) {
@@ -116,7 +116,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSettingToggle }) => {
             setPartialMatches(null);
             return;
         }
-        const hints = await window.dict.api.getHint(searchQuery);
+        const hints = await sage.dict.getHint(searchQuery);
         setPartialMatches(hints?.length ? hints : null);
     }, []);
 
@@ -147,7 +147,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSettingToggle }) => {
                 <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary-400/5 rounded-full blur-3xl" />
             </div>
 
-            <div className="relative z-[10] flex flex-col min-h-screen">
+            <div className="relative z-[10] flex flex-col min-h-screen pt-6 sm:pt-0">
                 {/* Header */}
                 <motion.div variants={itemVariants as any}>
                     <Header onSettingToggle={onSettingToggle} />
@@ -188,7 +188,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSettingToggle }) => {
                     </AnimatePresence>
 
                     {/* Search Bar Container */}
-                    <div className="relative w-full max-w-2xl mx-auto">
+                    <div className="relative w-full max-w-full sm:max-w-2xl mx-auto">
                         <SearchBar
                             query={query}
                             onSearch={handleSearch}
@@ -240,8 +240,8 @@ const HomePage: React.FC<HomePageProps> = ({ onSettingToggle }) => {
                 </motion.section>
 
                 {/* Results Section */}
-                <main className="flex-1 px-4 pb-8">
-                    <div className="max-w-6xl mx-auto">
+                <main className="flex-1 p-0 sm:px-4 pb-8">
+                    <div className="max-w-full sm:max-w-6xl mx-auto">
                         <AnimatePresence mode="wait">
                             {isLoading ? (
                                 <motion.div

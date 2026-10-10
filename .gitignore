@@ -14,3 +14,9 @@ release/
 src/main/**/*.js
 src/main/**/*.d.ts
 icons/
+DESC.md
+english-wordnet-2025
+# Exclude shm,wal and sqlite files
+*.sqlite
+*.sqlite*
+!user.sqlite

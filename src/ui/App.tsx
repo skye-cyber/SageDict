@@ -11,7 +11,7 @@ const App: React.FC = () => {
         setSettingsOpen(!settingOpen)
     }
     return (
-        <div className="min-h-screen flex flex-col bg-white dark:bg-vimdark-100">
+        <div className="min-h-screen flex flex-col bg-white dark:bg-vimdark-100 overflow-hidden max-w-[100vw]">
             <HomePage onSettingToggle={onSettingToggle} />
             <SettingPanel isOpen={settingOpen} onSettingToggle={onSettingToggle} />
         </div>

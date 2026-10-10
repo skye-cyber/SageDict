@@ -1,141 +1,0 @@
-Script started on 2026-04-29 00:37:34+03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="94" LINES="11"]
-[1;32mWelcome to Kubuntu, [1;36mskye[0m[1;32m![0m
-[0;90mWednesday, April 29 2026 - 00:37[0m
-]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary[?25l[>c7[1;2r[2;1H[1B[6n[;r[2;1H[1B[6n[r8[?2004h7[8m[K[▽][6n[K[▶][6n[K[龼][6n[K[鿄][6n[K[ㆸ][6n[K[ힰ][6n[K[゙][6n[K[鿍][6n[K[🤻][6n[K[ㄮ][6n[K[ㄯ][6n[K[𖿢][6n[K[㋿][6n[K[ㆻ][6n[K[鿽][6n[K[𛄲][6n[K[⿼][6n[K[㇤][6n[K(B[m8[?25h[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l(B[m[2A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[>4;1m[>4;2m[m(B[m[2A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l(B[m[2A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [0;32m[0;32mscript[0m [?25h[?25l(B[m[7D[0;32m[0;32mscript(B[m[K[?25h[?25l(B[m[6D[0;1;91m[0;1;91mscript/(B[m[K[?25h[?25l(B[m[7D[0;1;91m[0;1;91mscript/[0;38;5;240m [scripts/data/] (B[m[K(B[m[17D[?25h[?25l(B[m[7D[0;1;91m[0;1;91mscript/(B[m[K(B[m[1D[?25h[?25l(B[m[6D[?25h[?25l[0;1;91m[0;1;91msscript/(B[m[K(B[m[7D[?25h[?25l(B[m[1D[0;1;91m[0;1;91msrscript/(B[m[K(B[m[7D[?25h[?25l(B[m[2D[0;38;5;26m[0;38;5;26msr[0;38;5;240mc/[0;1;91m[0;1;91mscript/(B[m[K(B[m[9D[?25h[?25l[0;38;5;26mc[?25h[?25l(B[m[3D[0;38;5;26m[0;38;5;26msrc/[0;1;91mscript/(B[m[K(B[m[7D[?25h[?25l(B[m[4D[0;38;5;26m[0;38;5;26msrc/[0;38;5;240massets/[0;1;91m[0;1;91mscript/(B[m[K(B[m[14D[?25h[?25l(B[m[4D[0;38;5;26m[0;38;5;26msrc/[0;1;91mscript/(B[m[K(B[m[7D(B[m[7C
-[?25h[?25l[?2004l[>4;1m[m[?25hbash: src/script/: No such file or directory
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[0;91m[ble: exit 127](B[m
-[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;31m❯(B[m [?25h[?25l(B[m[2A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;31m❯(B[m [0;38;5;26m[0;38;5;26msrc/[0;1;91mscript/[?25h[?25l(B[m[11D[0;38;5;26m[0;38;5;26msrc/[0;1;91mscript(B[m[K[?25h[?25l(B[m[10D[0;38;5;26m[0;38;5;26msrc/[0;1;91mscrip(B[m[K[?25h[?25l(B[m[9D[0;38;5;26m[0;38;5;26msrc/[0;1;91mscri(B[m[K[?25h[?25l(B[m[8D[0;38;5;26m[0;38;5;26msrc/[0;1;91mscr(B[m[K[?25h[?25l(B[m[7D[0;38;5;26m[0;38;5;26msrc/[0;1;91msc(B[m[K[?25h[?25l(B[m[6D[0;38;5;26m[0;38;5;26msrc/[0;1;91ms(B[m[K[?25h[?25l(B[m[5D[0;38;5;26m[0;38;5;26msrc/[0;1;91msc(B[m[K[?25h[?25l(B[m[6D[0;38;5;26m[0;38;5;26msrc/[0;1;91msc[0;38;5;240mript/(B[m[K(B[m[5D[?25h[?25l(B[m[6D[0;38;5;26m[0;38;5;26msrc/[0;1;91mscript/(B[m[K[?25h[?25l(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25hbash: src/script/: No such file or directory
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[0;91m[ble: exit 127](B[m
-[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;31m❯(B[m [?25h[?25l(B[m[2A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;31m❯(B[m [0;38;5;26m[0;38;5;26msrc/[0;1;91mscript/[?25h[?25l(B[m[1D[?25h[?25l(B[m[6D[?25h[?25l(B[m[1D[?25h[?25l(B[m[3D[?25h[?25l[0;1;91m[0;1;91mcsrc/script/(B[m[K(B[m[11D[?25h[?25l(B[m[1D[0;1;91m[0;1;91mcdsrc/script/(B[m[K(B[m[11D[?25h[?25l(B[m[2D[0;91m[0;91mcd[0m [0;4;38;5;26msrc/[0mscript/(B[m[K(B[m[11D[?25h[?25l(B[m[11C
-[?25h[?25l[?2004l[>4;1m[m[?25hbash: cd: src/script/: No such file or directory
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[0;91m[ble: exit 1](B[m
-[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;31m❯(B[m [?25h[?25l[0;1;91m[0;1;91ml(B[m[K[?25h[?25l(B[m[1D[0;36m[0;36ml[0;38;5;240ms(B[m[K(B[m[1D[?25h[?25l[0;36ms(B[m[K[?25h[?25l(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25h[34m [1micons[0m         [34m [1mscripts[0m     [32m package-lock.json[0m  [32m tailwind.config.js[0m  [32m tsconfig.main.json[0m
-[34m [1mnode_modules[0m  [34m󰣞 [1msrc[0m         [32m package.json[0m       [32m tsconfig.base.json[0m  󰡯 typescript
-[34m [1mpublic[0m        [32m index.html[0m  [33m󰂺 README.md[0m          [32m tsconfig.core.json[0m  [32m vite.config.js[0m
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[0;1;91m[0;1;91ms(B[m[K[?25h[?25l(B[m[1D[0;38;5;26m[0;38;5;26ms[0;38;5;240mrc/script/(B[m[K(B[m[10D[?25h[?25l[0;38;5;26mr[?25h[?25l[0;38;5;26mc[?25h[?25l(B[m[3D[0;4;38;5;26m[0;4;38;5;26msrc(B[m[K(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25hcd -- src
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary/src[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary/src(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m via [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[0;1;91m[0;1;91ml(B[m[K[?25h[?25l(B[m[1D[0;36m[0;36ml[0;38;5;240ms(B[m[K(B[m[1D[?25h[?25l[0;36ms(B[m[K[?25h[?25l(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25h[34m [1massets[0m  [34m [1mcore[0m  [34m [1mmain[0m  [34m [1mtypes[0m  [34m [1mui[0m
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary/src[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary/src(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m via [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[0;1;91m[0;1;91m.(B[m[K[?25h[?25l(B[m[1D[0;38;5;26m[0;38;5;26m.[0;38;5;240m/prepicons(B[m[K(B[m[10D[?25h[?25l(B[m[1D[0;36m[0;36m..(B[m[K[?25h[?25l(B[m[2D[0;4;38;5;26m[0;4;38;5;26m../(B[m[K[?25h[?25l(B[m[3D[0;4;38;5;26m[0;4;38;5;26m../[0;38;5;240m.git/(B[m[K(B[m[5D[?25h[?25l(B[m[3D[0;4;38;5;26m[0;4;38;5;26m../(B[m[K(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25hcd -- ../
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m is [0;1;38;5;208m📦 v1.0.0(B[m via [0;1;32m v22.22.2 (B[mvia [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[0;1;91m[0;1;91ms(B[m[K[?25h[?25l(B[m[1D[0;4;38;5;26m[0;4;38;5;26ms[0;38;5;240mrc(B[m[K(B[m[2D[?25h[?25l(B[m[1D[0;1;91m[0;1;91msc(B[m[K[?25h[?25l(B[m[2D[0;32m[0;32msc[0;38;5;240mript (B[m[K(B[m[5D[?25h[?25l[0;32mr[?25h[?25l[0;32mi[?25h[?25l(B[m[4D[0;32m[0;32mscript[0m (B[m[K[?25h[?25l(B[m[7D[0;32m[0;32mscript(B[m[K[?25h[?25l(B[m[6D[0;1;91m[0;1;91mscript/(B[m[K[?25h[?25l(B[m[7D[0;1;91m[0;1;91mscript/[0;38;5;240m [scripts/data/] (B[m[K(B[m[17D[?25h[?25l(B[m[7D[0;1;91m[0;1;91mscript/(B[m[K(B[m[1D[?25h[?25l(B[m[6D[?25h[?25l[0;1;91m[0;1;91mcscript/(B[m[K(B[m[7D[?25h[?25l(B[m[1D[0;1;91m[0;1;91mcdscript/(B[m[K(B[m[7D[?25h[?25l(B[m[2D[0;91m[0;91mcd[0m script/(B[m[K(B[m[7D[?25h[?25l(B[m[7C
-[?25h[?25l[?2004l[>4;1m[m[?25hscripts/
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary/scripts[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary/scripts(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m via [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[0;1;91m[0;1;91ml(B[m[K[?25h[?25l(B[m[1D[0;36m[0;36ml[0;38;5;240ms(B[m[K(B[m[1D[?25h[?25l[0;36ms(B[m[K[?25h[?25l(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25h[34m [1mdata[0m       [32m filter.py[0m     [32m Li0n-merge.py[0m  [32m󰡯 [1mmoveicons[0m
-[34m [1mprocessed[0m  [32m json_init.py[0m  [32m merge.py[0m       [32m󰡯 [1mprepicons[0m
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary/scripts[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary/scripts(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m via [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[0;1;91m[0;1;91m.(B[m[K[?25h[?25l(B[m[1D[0;4;38;5;26m[0;4;38;5;26m.[0;38;5;240m./(B[m[K(B[m[2D[?25h[?25l(B[m[1D[0;4;38;5;26m[0;4;38;5;26m./(B[m[K[?25h[?25l(B[m[2D[0;38;5;26m[0;38;5;26m./[0;38;5;240mprepicons(B[m[K(B[m[9D[?25h[?25l(B[m[2D[0;38;5;26m[0;38;5;26m./[0;32mprepicons(B[m[K[?25h[?25l(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25hGenerating PNG icons...
-✔️  Created: ../icons/16x16.png
-✔️  Created: ../icons/32x32.png
-✔️  Created: ../icons/48x48.png
-✔️  Created: ../icons/64x64.png
-✔️  Created: ../icons/128x128.png
-✔️  Created: ../icons/256x256.png
-✔️  Created: ../icons/512x512.png
-✔️  Created: ../icons/1024x1024.png
-
-🎉 Linux icon set (flat structure) generation complete!
-Creating .icns file...
-⚠️ Skipping unsupported size: 48x48 for ICNS
-Using icns type 'is32', mask 's8mk' for '/tmp/tmp.1dJfQz6m3H/icon_16x16.png'
-Using icns type 'il32', mask 'l8mk' for '/tmp/tmp.1dJfQz6m3H/icon_32x32.png'
-Using icns type 'ic07' (ARGB) for '/tmp/tmp.1dJfQz6m3H/icon_128x128.png'
-Using icns type 'ic08' (ARGB) for '/tmp/tmp.1dJfQz6m3H/icon_256x256.png'
-Using icns type 'ic09' (ARGB) for '/tmp/tmp.1dJfQz6m3H/icon_512x512.png'
-Using icns type 'ic10' (ARGB) for '/tmp/tmp.1dJfQz6m3H/icon_1024x1024.png'
-Saved icns file to ../src/assets/deskdict.icns
-✅ .icns file created at: ../src/assets/deskdict.icns
-Creating .ico file...
-✅ Created .ico file: ../src/assets/deskdict.ico
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary/scripts[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary/scripts(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m via [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h[?25l[0;1;91m[0;1;91m.(B[m[K[?25h[?25l(B[m[1D[0;38;5;26m[0;38;5;26m.[0;38;5;240m/prepicons(B[m[K(B[m[10D[?25h[?25l(B[m[1D[0;4;38;5;26m[0;4;38;5;26m./(B[m[K[?25h[?25l(B[m[2D[0;38;5;26m[0;38;5;26m./[0;38;5;240mprepicons(B[m[K(B[m[9D[?25h[?25l(B[m[2D[0;38;5;26m[0;38;5;26m./[0;1;91mm(B[m[K[?25h[?25l(B[m[3D[0;38;5;26m[0;38;5;26m./[0;32mm[0;38;5;240moveicons (B[m[K(B[m[9D[?25h[?25l(B[m[3D[0;38;5;26m[0;38;5;26m./[0;32mmoveicons[0m (B[m[K[?25h[?25l(B[m
-[?25h[?25l[?2004l[>4;1m[m[?25h🔧 Preparing Linux icons...
-✔ Created ../src/assets/linux/1024x1024/apps/deskdict.png
-✔ Created ../src/assets/linux/512x512/apps/deskdict.png
-✔ Created ../src/assets/linux/256x256/apps/deskdict.png
-✔ Created ../src/assets/linux/128x128/apps/deskdict.png
-✔ Created ../src/assets/linux/64x64/apps/deskdict.png
-✔ Created ../src/assets/linux/48x48/apps/deskdict.png
-✔ Created ../src/assets/linux/32x32/apps/deskdict.png
-🔧 Copying Windows icon...
-✔ Windows icon copied
-🔧 Copying macOS icon...
-✔ macOS icon copied
-🎉 All available icons prepared successfully!
-(B[m7[0;94m[ble: EOF](B[m(B[m8[92C  [K[?25l[?2004h[>4;1m[>4;2m[m[?25h]0;skye@skye-hpelitebook840g1: /home/skye/desktop-dictionary/scripts[?25l(B[m
-
-(B[m[1A[2L[2K(B[m[1A[2K
-[1G[2K[2M[2L[2K[1A
-[0;1;36mdesktop-dictionary/scripts(B[m on [0;1;35m main(B[m [0;1;31m[!?](B[m via [0;1;33m🐍 v3.14.4 (pyenv) (B[m
-[0;1;32m❯(B[m [?25h
-Script done on 2026-04-29 00:39:21+03:00 [COMMAND_EXIT_CODE="0"]

@@ -135,12 +135,12 @@ const SearchBar: React.FC<SearchBarProps> = ({ query, onSearch, isFocused, setIs
             onSubmit={handleSubmit}
             variants={containerVariants as any}
             animate={isFocused ? 'focused' : 'unfocused'}
-            className="relative w-full max-w-2xl mx-auto"
+            className="relative w-full max-w-full sm:max-w-2xl mx-auto"
         >
 
             {/* Main input container */}
             <div
-                className={`relative flex items-center gap-3 px-5 py-4 rounded-2xl border-2 transition-all duration-300 bg-white dark:bg-vimdark-200/90 shadow-lg ${isFocused ?
+                className={`relative flex items-center gap-3 px-5 py-4 rounded-2xl border-2 transition-all duration-300 bg-white dark:bg-vimdark-200/90 shadow-sm sm:shadow-lg ${isFocused ?
                     'border-primary-400/50 shadow-primary-400/10 dark:shadow-none ring-1 ring-primary-100'
                     : 'border-gray-200 dark:border-vimdark-500/60 hover:border-gray-300 dark:hover:border-vimdark-400'
                     }`}

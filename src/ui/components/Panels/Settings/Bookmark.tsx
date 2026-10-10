@@ -1,9 +1,10 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useCallback, useEffect, useState } from 'react';
-import { BookmarkEntry } from '../../../../main/preload/preload.type';
+import { BookmarkEntry } from '../../../../types/global';
 import { ExternalLink, Trash2, Search, Plus, Bookmark } from 'lucide-react';
 import { globalEventBus } from '../../../../core/Globals/eventBus';
 import { StateManager } from '../../../../core/Globals/StatesManager';
+import { sage } from '../../../../core/hooks/sage';
 
 
 const CardHoverColors: Array<string> = [
@@ -124,7 +125,7 @@ export const BookmarkContent: React.FC = ({ }) => {
     const [bookmarks, setBookmarks] = useState<BookmarkEntry[] | null>(null);
 
     const loadBookmark = async () => {
-        const bookmarkItems = await window.dict.api.readBookmark()
+        const bookmarkItems = await sage.bookmarks.readBookmarks()
         if (bookmarkItems) {
             setBookmarks(bookmarkItems)
             StateManager.set('bookmarks', bookmarkItems)
@@ -141,7 +142,7 @@ export const BookmarkContent: React.FC = ({ }) => {
     );
 
     const onBookmarkDelete = useCallback(async (phrase: string) => {
-        const new_bookmarks = await window.dict.api.deleteBookmarkItem(phrase)
+        const new_bookmarks = await sage.bookmarks.deleteByPhrase(phrase)
         if (new_bookmarks) {
             globalEventBus.emit('bookmark:change') // loadBookmark()
         }
